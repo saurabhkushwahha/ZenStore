@@ -14,8 +14,7 @@ function Navbar() {
       <div className='container mx-auto px-4 py-3 '>
         <div className='flex justify-between items-center flex-wrap'>
 
-          {/* <Link to="/" className='text-2xl font-bold text-emerald-400 items-center space-x-2 flex'><span className='text-3xl font-thin italic'>Z</span>enStore</Link> */}
-          <Link to="/" className='text-2xl font-bold text-emerald-400 items-center space-x-2 flex'>Atul</Link>
+          <Link to="/" className='text-2xl font-bold text-emerald-400 items-center space-x-2 flex'><span className='text-3xl font-thin italic'>Z</span>enStore</Link>
 
           <nav className='flex items-center flex-wrap gap-4'>
 
