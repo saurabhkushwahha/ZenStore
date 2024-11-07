@@ -104,7 +104,7 @@ export const  refreshToken=async (req,res)=>{
 
        if(storeToken!==refreshToken)
        {
-         re.status(401).json({message:"Unauthorized- No valid refreshtoken"})
+         re.status(400).json({message:"Unauthorized- No valid refreshtoken"})
        }
 
        const accessToken=  jwt.sign({userId},process.env.ACCESS_TOKEN,{
